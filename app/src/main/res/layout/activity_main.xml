@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bigapp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textScreen"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="In Fight Battle"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="290dp"
+            android:layout_height="150dp"
+            android:orientation="vertical"
+            android:background="@drawable/bgquestion"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:id="@+id/textQuestion"
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:lineSpacingExtra="6dp"
+                android:text="Guess The Animal In English Language"
+                android:textColor="#0000FF"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_marginBottom="60dp"
+            android:id="@+id/editText"
+            android:padding="10dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:background="@drawable/bgpurple"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:textSize="32sp"
+            android:textColor="#0000FF"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="80dp" />
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="AMMO"
+            android:gravity="center"
+            android:layout_marginRight="28dp"
+            android:layout_marginLeft="28dp"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:id="@+id/layoutParent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+    </LinearLayout>
+</layout>
