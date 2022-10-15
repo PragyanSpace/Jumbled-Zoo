@@ -128,6 +128,7 @@ class MainActivity : AppCompatActivity() {
 //            Toast.makeText(MainActivity.this, "Correct", Toast.LENGTH_SHORT).show();
             val a = Intent(this@MainActivity, BossAct::class.java)
             startActivity(a)
+            finish()
         } else {
             Toast.makeText(this@MainActivity, "Wrong", Toast.LENGTH_SHORT).show()
         }

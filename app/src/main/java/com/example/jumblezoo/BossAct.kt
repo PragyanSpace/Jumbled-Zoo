@@ -26,4 +26,9 @@ class BossAct : AppCompatActivity() {
             finish()
         }
     }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        startActivity(Intent(this,MainActivity::class.java))
+        finish()
+    }
 }
